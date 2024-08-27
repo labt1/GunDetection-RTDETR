@@ -1,0 +1,1 @@
+visualdl --logdir ./vdl_log_dir --host 0.0.0.0

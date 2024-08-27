@@ -1,0 +1,18 @@
+{
+    "name": "PADDLE-DEV",
+  
+    "dockerComposeFile": ["docker-compose.yml"],
+  
+    "service": "paddle-service",
+    "workspaceFolder": "/data",
+  
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
+      }
+    },
+  
+    "postCreateCommand": "bash",
+    "shutdownAction": "stopCompose"
+  }

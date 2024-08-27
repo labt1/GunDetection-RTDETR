@@ -1,0 +1,21 @@
+metric: COCO
+num_classes: 1
+
+TrainDataset:
+  name: COCODataSet
+  image_dir: JPEGImages
+  anno_path: _annotations.coco.json
+  dataset_dir: dataset/gun/train_dextre
+  data_fields: ['image', 'gt_bbox', 'gt_class', 'is_crowd']
+
+EvalDataset:
+  name: COCODataSet
+  image_dir: JPEGImages
+  anno_path: _annotations.coco.json
+  dataset_dir: dataset/gun/test_dextre # dataset/gun/test
+  allow_empty: true
+
+TestDataset:
+  name: ImageFolder
+  anno_path: _annotations.coco.json
+  dataset_dir: dataset/gun/test_olmos # if set, anno_path will be 'dataset_dir/anno_path'
