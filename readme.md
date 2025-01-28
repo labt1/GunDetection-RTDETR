@@ -8,6 +8,6 @@ Proceedings of the [2024 L Latin American Computer Conference (CLEI)](https://ie
 
 # Gun Detection using RTDETR and BiFPN
 
-Code available in [rtdetr_v2_pytorch](./rtdetr_v2_pytorch)
+Code available in [rtdetr_v2_pytorch](./rtdetr_v2_pytorch/data)
 
 ![App Screenshot](assets/RTDETR_BIFPN.png)
