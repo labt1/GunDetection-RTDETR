@@ -6,7 +6,6 @@ Proceedings of the [2024 L Latin American Computer Conference (CLEI)](https://ie
 
 ![App Screenshot](assets/Pipeline_CUDA.png)
 
-
 # Gun Detection using RTDETR and BiFPN
 
 Code available in [rtdetr_v2_pytorch](./rtdetr_v2_pytorch)
