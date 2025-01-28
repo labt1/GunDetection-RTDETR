@@ -1,6 +1,6 @@
 # RTDETR v2
 
-![Screenshot](output/output_images/pistol_1713.jpg)
+![Screenshot](output/output_images/pistol_1713.png)
 
 ## Baseline
 
