@@ -1,0 +1,1 @@
+> Baseline RT-DETR object detection models were pre-trained on two configurations: (1) the COCO dataset and (2) a combined dataset of Obj365 and COCO, results in output.

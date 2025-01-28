@@ -1,0 +1,34 @@
+task: detection
+
+num_classes: 2
+remap_mscoco_category: True
+
+train_dataloader: 
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: ./data/ucf/images/
+    ann_file: ./data/ucf/annotation_detection/annotations_train_fixed.json
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  batch_size: 32
+  num_workers: 8
+  drop_last: True 
+
+
+val_dataloader:
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: ./data/mgd/images/
+    ann_file: ./data/mgd/annotation_detection/annotations_test_fixed.json
+    transforms:
+      type: Compose
+      ops: ~ 
+
+  shuffle: False
+  batch_size: 32
+  num_workers: 8
+  drop_last: False

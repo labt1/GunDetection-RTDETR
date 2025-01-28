@@ -1,11 +1,13 @@
 # Deployment
 
-Configurar el entorno:
+Setting up the environment:
 ```bash
   docker compose up
 ```
 
-Ejecutar:
+Or execute automatically using Dev Container
+
+Run:
 ```bash
   cd data
   bash compile_and_run.sh
